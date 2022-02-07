@@ -716,7 +716,7 @@ a:hover {
   text-align: center;
   font-weight: bold;
   text-transform: capitalize;
-  list-stlye: none;
+  list-style: none;
   cursor: pointer; }
 
 [data-type="example"] [data-type="solution"].ui-solution-visible > .ui-toggle-wrapper::before {
@@ -744,7 +744,7 @@ a:hover {
   text-align: center;
   font-weight: bold;
   text-transform: capitalize;
-  list-stlye: none;
+  list-style: none;
   cursor: pointer; }
 
 [data-type="example"] .solution.ui-solution-visible > .ui-toggle-wrapper::before {
@@ -857,7 +857,7 @@ a:hover {
   text-align: center;
   font-weight: bold;
   text-transform: capitalize;
-  list-stlye: none;
+  list-style: none;
   cursor: pointer; }
 
 .example [data-type="solution"].ui-solution-visible > .ui-toggle-wrapper::before {
@@ -885,7 +885,7 @@ a:hover {
   text-align: center;
   font-weight: bold;
   text-transform: capitalize;
-  list-stlye: none;
+  list-style: none;
   cursor: pointer; }
 
 .example .solution.ui-solution-visible > .ui-toggle-wrapper::before {
@@ -998,7 +998,7 @@ a:hover {
   text-align: center;
   font-weight: bold;
   text-transform: capitalize;
-  list-stlye: none;
+  list-style: none;
   cursor: pointer; }
 
 [data-type="exercise"] [data-type="solution"].ui-solution-visible > .ui-toggle-wrapper::before {
@@ -1026,7 +1026,7 @@ a:hover {
   text-align: center;
   font-weight: bold;
   text-transform: capitalize;
-  list-stlye: none;
+  list-style: none;
   cursor: pointer; }
 
 [data-type="exercise"] .solution.ui-solution-visible > .ui-toggle-wrapper::before {
@@ -1139,7 +1139,7 @@ a:hover {
   text-align: center;
   font-weight: bold;
   text-transform: capitalize;
-  list-stlye: none;
+  list-style: none;
   cursor: pointer; }
 
 .exercise [data-type="solution"].ui-solution-visible > .ui-toggle-wrapper::before {
@@ -1167,7 +1167,7 @@ a:hover {
   text-align: center;
   font-weight: bold;
   text-transform: capitalize;
-  list-stlye: none;
+  list-style: none;
   cursor: pointer; }
 
 .exercise .solution.ui-solution-visible > .ui-toggle-wrapper::before {
