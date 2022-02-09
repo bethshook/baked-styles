@@ -747,7 +747,7 @@ a:hover {
 [data-type="example"] .solution > .ui-toggle::before {
   content: "[Show/Hide Solution]"; }
 
-[data-type="example"] .solution::-webkit-details-marker {
+[data-type="example"] .solution > .ui-toggle::-webkit-details-marker {
   display: none; }
 
 [data-type="example"].problems-exercises [data-type="problem"]::before {
@@ -885,7 +885,7 @@ a:hover {
 .example .solution > .ui-toggle::before {
   content: "[Show/Hide Solution]"; }
 
-.example .solution::-webkit-details-marker {
+.example .solution > .ui-toggle::-webkit-details-marker {
   display: none; }
 
 .example.problems-exercises [data-type="problem"]::before {
@@ -1023,7 +1023,7 @@ a:hover {
 [data-type="exercise"] .solution > .ui-toggle::before {
   content: "[Show/Hide Solution]"; }
 
-[data-type="exercise"] .solution::-webkit-details-marker {
+[data-type="exercise"] .solution > .ui-toggle::-webkit-details-marker {
   display: none; }
 
 [data-type="exercise"].problems-exercises [data-type="problem"]::before {
@@ -1161,7 +1161,7 @@ a:hover {
 .exercise .solution > .ui-toggle::before {
   content: "[Show/Hide Solution]"; }
 
-.exercise .solution::-webkit-details-marker {
+.exercise .solution > .ui-toggle::-webkit-details-marker {
   display: none; }
 
 .exercise.problems-exercises [data-type="problem"]::before {
