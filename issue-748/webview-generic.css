@@ -750,6 +750,9 @@ a:hover {
 [data-type="example"] .solution > .ui-toggle::-webkit-details-marker {
   display: none; }
 
+[data-type="example"] .solution > .ui-toggle > summary.ui-toggle::-webkit-details-marker {
+  display: none; }
+
 [data-type="example"].problems-exercises [data-type="problem"]::before {
   color: #424242;
   font-weight: bold;
@@ -886,6 +889,9 @@ a:hover {
   content: "[Show/Hide Solution]"; }
 
 .example .solution > .ui-toggle::-webkit-details-marker {
+  display: none; }
+
+.example .solution > .ui-toggle > summary.ui-toggle::-webkit-details-marker {
   display: none; }
 
 .example.problems-exercises [data-type="problem"]::before {
@@ -1026,6 +1032,9 @@ a:hover {
 [data-type="exercise"] .solution > .ui-toggle::-webkit-details-marker {
   display: none; }
 
+[data-type="exercise"] .solution > .ui-toggle > summary.ui-toggle::-webkit-details-marker {
+  display: none; }
+
 [data-type="exercise"].problems-exercises [data-type="problem"]::before {
   color: #424242;
   font-weight: bold;
@@ -1162,6 +1171,9 @@ a:hover {
   content: "[Show/Hide Solution]"; }
 
 .exercise .solution > .ui-toggle::-webkit-details-marker {
+  display: none; }
+
+.exercise .solution > .ui-toggle > summary.ui-toggle::-webkit-details-marker {
   display: none; }
 
 .exercise.problems-exercises [data-type="problem"]::before {
