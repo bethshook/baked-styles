@@ -719,7 +719,7 @@ a:hover {
   list-style: none;
   cursor: pointer; }
 
-[data-type="example"] [data-type="solution"] > .ui-toggle::before {
+[data-type="example"] [data-type="solution"] > .ui-toggle > .ui-toggle::before {
   content: "[Show/Hide Solution]"; }
 
 [data-type="example"] .solution {
@@ -744,10 +744,10 @@ a:hover {
   list-style: none;
   cursor: pointer; }
 
-[data-type="example"] .solution > .ui-toggle::before {
+[data-type="example"] .solution > .ui-toggle > .ui-toggle::before {
   content: "[Show/Hide Solution]"; }
 
-[data-type="example"] .solution > .ui-toggle::-webkit-details-marker {
+[data-type="example"] .solution > .ui-toggle > .ui-toggle::-webkit-details-marker {
   display: none; }
 
 [data-type="example"].problems-exercises [data-type="problem"]::before {
@@ -857,7 +857,7 @@ a:hover {
   list-style: none;
   cursor: pointer; }
 
-.example [data-type="solution"] > .ui-toggle::before {
+.example [data-type="solution"] > .ui-toggle > .ui-toggle::before {
   content: "[Show/Hide Solution]"; }
 
 .example .solution {
@@ -882,10 +882,10 @@ a:hover {
   list-style: none;
   cursor: pointer; }
 
-.example .solution > .ui-toggle::before {
+.example .solution > .ui-toggle > .ui-toggle::before {
   content: "[Show/Hide Solution]"; }
 
-.example .solution > .ui-toggle::-webkit-details-marker {
+.example .solution > .ui-toggle > .ui-toggle::-webkit-details-marker {
   display: none; }
 
 .example.problems-exercises [data-type="problem"]::before {
@@ -995,7 +995,7 @@ a:hover {
   list-style: none;
   cursor: pointer; }
 
-[data-type="exercise"] [data-type="solution"] > .ui-toggle::before {
+[data-type="exercise"] [data-type="solution"] > .ui-toggle > .ui-toggle::before {
   content: "[Show/Hide Solution]"; }
 
 [data-type="exercise"] .solution {
@@ -1020,10 +1020,10 @@ a:hover {
   list-style: none;
   cursor: pointer; }
 
-[data-type="exercise"] .solution > .ui-toggle::before {
+[data-type="exercise"] .solution > .ui-toggle > .ui-toggle::before {
   content: "[Show/Hide Solution]"; }
 
-[data-type="exercise"] .solution > .ui-toggle::-webkit-details-marker {
+[data-type="exercise"] .solution > .ui-toggle > .ui-toggle::-webkit-details-marker {
   display: none; }
 
 [data-type="exercise"].problems-exercises [data-type="problem"]::before {
@@ -1133,7 +1133,7 @@ a:hover {
   list-style: none;
   cursor: pointer; }
 
-.exercise [data-type="solution"] > .ui-toggle::before {
+.exercise [data-type="solution"] > .ui-toggle > .ui-toggle::before {
   content: "[Show/Hide Solution]"; }
 
 .exercise .solution {
@@ -1158,10 +1158,10 @@ a:hover {
   list-style: none;
   cursor: pointer; }
 
-.exercise .solution > .ui-toggle::before {
+.exercise .solution > .ui-toggle > .ui-toggle::before {
   content: "[Show/Hide Solution]"; }
 
-.exercise .solution > .ui-toggle::-webkit-details-marker {
+.exercise .solution > .ui-toggle > .ui-toggle::-webkit-details-marker {
   display: none; }
 
 .exercise.problems-exercises [data-type="problem"]::before {
