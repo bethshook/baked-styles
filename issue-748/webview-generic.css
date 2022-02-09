@@ -722,6 +722,12 @@ a:hover {
 [data-type="example"] [data-type="solution"] > .ui-toggle::before {
   content: "[Show/Hide Solution]"; }
 
+[data-type="example"] [data-type="solution"] > .ui-toggle::-webkit-details-marker {
+  display: none; }
+
+[data-type="example"] [data-type="solution"] > summary.ui-toggle::-webkit-details-marker {
+  display: none; }
+
 [data-type="example"] .solution {
   padding: 0.5em 1em;
   border-top-width: 0.1rem;
@@ -862,6 +868,12 @@ a:hover {
 
 .example [data-type="solution"] > .ui-toggle::before {
   content: "[Show/Hide Solution]"; }
+
+.example [data-type="solution"] > .ui-toggle::-webkit-details-marker {
+  display: none; }
+
+.example [data-type="solution"] > summary.ui-toggle::-webkit-details-marker {
+  display: none; }
 
 .example .solution {
   padding: 0.5em 1em;
@@ -1004,6 +1016,12 @@ a:hover {
 [data-type="exercise"] [data-type="solution"] > .ui-toggle::before {
   content: "[Show/Hide Solution]"; }
 
+[data-type="exercise"] [data-type="solution"] > .ui-toggle::-webkit-details-marker {
+  display: none; }
+
+[data-type="exercise"] [data-type="solution"] > summary.ui-toggle::-webkit-details-marker {
+  display: none; }
+
 [data-type="exercise"] .solution {
   padding: 0.5em 1em;
   border-top-width: 0.1rem;
@@ -1144,6 +1162,12 @@ a:hover {
 
 .exercise [data-type="solution"] > .ui-toggle::before {
   content: "[Show/Hide Solution]"; }
+
+.exercise [data-type="solution"] > .ui-toggle::-webkit-details-marker {
+  display: none; }
+
+.exercise [data-type="solution"] > summary.ui-toggle::-webkit-details-marker {
+  display: none; }
 
 .exercise .solution {
   padding: 0.5em 1em;
