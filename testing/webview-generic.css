@@ -4,9 +4,6 @@
   font-size: 1.6rem;
   line-height: 2.3rem; }
 
-body {
-    color: red !important;
-  }
 
 input, button, select, textarea {
   font-family: inherit;
@@ -18,7 +15,6 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
   cursor: pointer; }
 
 button {
-  background-color: orchid;
   overflow: visible; }
 
 button, input, optgroup, select, textarea {
@@ -45,18 +41,18 @@ u[data-effect="double-underline"] {
   text-decoration-style: double; }
 
 h1 {
-  color: #333;
+  color: blue;
   margin: 1.5rem 0 1rem 0;
   font-weight: bold; }
 
 h2 {
-  color: #333;
+  color: green;
   font-size: 3.2rem;
   margin: 1.5rem 0 1rem 0;
   font-weight: bold; }
 
 h3 {
-  color: #333;
+  color:orange;
   font-size: 2.4rem;
   margin: 1.5rem 0 1rem 0;
   font-weight: bold; }
